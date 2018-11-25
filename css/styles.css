@@ -328,7 +328,7 @@ button, a, input {
 .wwa_card {
 	width: 170px;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .card_img {
@@ -355,7 +355,7 @@ button, a, input {
 .svg_thumb {
 	height: 40px;
 	width: 53px;
-	fill: #bababa;
+	fill: #9d9d9c;
 }
 
 .card_img_cap:active .svg_cap,
@@ -434,7 +434,7 @@ button, a, input {
 .svg_clock,
 .svg_cloud,
 .svg_heart {
-	fill: #bababa;
+	fill: #9d9d9c;
 	height: 40px;
 	width: 53px;
 }
@@ -506,7 +506,7 @@ button, a, input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #dbdbdb;
+	color: #333;
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;
@@ -519,7 +519,7 @@ button, a, input {
 #footer_envelope {
 	height: 20px;
 	width: 20px;
-	fill: #dbdbdb;
+	fill: #333;
 }
 
 .media:active,
@@ -543,7 +543,7 @@ button, a, input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #dbdbdb;
+	color: #333;
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;

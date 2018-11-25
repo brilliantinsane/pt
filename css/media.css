@@ -91,7 +91,7 @@
         text-align: left;
         margin: 0 auto;
         margin-top: 20px;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
         width: 400px;
     }
     .wwa_card {
@@ -108,11 +108,11 @@
     .card_img {
         width: 188px;
         height: 118px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     .card_desc {
         width: 188px;
-        margin-left: 10px;
+        margin-left: 20px;
         height: 118px;
     }
     .card_contr {
@@ -130,7 +130,6 @@
         text-align: left;
         margin: 0 auto;
         margin-top: 20px;
-        margin-bottom: 12px;
         width: 400px;
     }
     .wwd_card {
@@ -151,6 +150,7 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
+        justify-content: center;
     }
     .wwd_bottom {
         display: -webkit-flex;
@@ -158,12 +158,15 @@
         display: flex;
     }
     .wwd_card_left {
-        margin-top: 20px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     .wwd_card_right {
-        margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 20px;
+    }
+
+    .wwd_card_bottom_l,
+    .wwd_card_bottom_r {
+        margin-top: 40px;
     }
 }
 
@@ -210,14 +213,15 @@
         position: relative;
         color: #a1a3a6;
     }
-    .big_screen_navigation>ul>a::after {
+
+    .big_screen_top>ul>a::after {
         position: absolute;
-        display: block;
-        content: "/";
+        content: '/';
+        right: -18px;
         top: 0;
-        right: -20px;
         color: #a1a3a6;
     }
+
     .big_screen_home:active,
     .big_screen_home:hover,
     .big_screen_home:focus,
