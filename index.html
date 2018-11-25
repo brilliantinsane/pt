@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Performance Technologies</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <article>
+        <header class="header">
+            <div class="header_container">
+                <a href="index.html" class="branding">
+                    <span class="logo"></span>
+                </a>
+
+                <div class="icons_navigation">
+                    <a href="">
+                        <!-- <span class="nav_icon"></span> -->
+                        <svg class="nav_icon home" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.5 54.8">
+							<polygon class="cls-1" points="31.62 6.63 8.96 23.55 8.96 54.8 25.5 54.8 25.5 32.75 38 32.75 38 54.8 54.54 54.8 54.54 23.55 31.62 6.63"/><polyline class="cls-1" points="0 24 31.54 0 63.5 24"/>
+						</svg>
+                    </a>
+
+                    <a href="">
+                        <!-- <span class="nav_icon about"></span> -->
+                        <svg class="nav_icon about" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.1 38.1">
+							<path class="cls-1" d="M19.05,0A19.05,19.05,0,1,0,38.1,19.05,19.05,19.05,0,0,0,19.05,0ZM21.7,32H16.79V27.24H21.7Zm4.69-13.82A12.55,12.55,0,0,1,24,20.42l-1.16.91a3.53,3.53,0,0,0-1.26,1.72A7.33,7.33,0,0,0,21.36,25H16.91a13,13,0,0,1,.52-3.84,6.8,6.8,0,0,1,2.2-2.43l1.19-.94a4.34,4.34,0,0,0,.95-1,3.28,3.28,0,0,0,.66-2,3.86,3.86,0,0,0-.73-2.27,3.08,3.08,0,0,0-2.66-1,3,3,0,0,0-2.7,1.27,4.86,4.86,0,0,0-.79,2.63H10.8c.13-3.12,1.22-5.34,3.27-6.64a8.63,8.63,0,0,1,4.76-1.25A10.31,10.31,0,0,1,25,9.31a6.07,6.07,0,0,1,2.45,5.25A6,6,0,0,1,26.39,18.16Z"/>
+						</svg>
+                    </a>
+
+                    <a href="">
+                        <!-- <span class="nav_icon work"></span> -->
+                        <svg class="nav_icon work" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.83 25.91">
+							<path class="cls-1" d="M26.3,13.38l-9,5.57L8.22,13.32v7l9.15,5.61,8.93-5.64Zm4.17-4.73,3.36-1.74L17,0,0,6.91l17,9.4,12.1-6.9v8.22a2.1,2.1,0,0,0-1.39,2,2.09,2.09,0,0,0,4.17,0,2.12,2.12,0,0,0-1.39-2Z"/>
+						</svg>
+                    </a>
+
+                    <a href="">
+                        <!-- <span class="nav_icon contact"></span> -->
+                        <svg class="nav_icon contact" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.46 38.1">
+							<polygon class="cls-1" points="45.68 38.1 30.28 21.34 23.35 27.62 16.41 21.34 1.78 38.1 45.68 38.1"/><polygon class="cls-1" points="1.74 0 23.35 24.5 45.72 0 1.74 0"/><polygon class="cls-1" points="14.69 19.78 0 1.54 0 36.58 14.69 19.78"/><polygon class="cls-1" points="47.45 38.1 47.46 38.1 47.46 38.09 47.45 38.1"/><polygon class="cls-1" points="47.46 1.54 32.01 19.78 47.46 36.58 47.46 1.54"/><polygon class="cls-1" points="0 38.09 0 38.1 0.01 38.1 0 38.09"/>
+						</svg>
+                    </a>
+                </div>
+
+                <div class="big_screen_navigation">
+                    <ul>
+                        <a href="">
+                            <li class="big_screen_home">Home</li>
+                        </a>
+
+                        <a href="">
+                            <li class="big_screen_about">About</li>
+                        </a>
+
+                        <a href="">
+                            <li class="big_screen_work">Our work</li>
+                        </a>
+
+                        <a href="">
+                            <li class="big_screen_contact">Contact</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <button type="button" class="toggle">
+					<span class="toggle_inner"></span>
+				</button>
+
+                <button type="button" class="search">
+					<i class="fas fa-search"></i>
+				</button>
+            </div>
+            <div class="hidden_search">
+                <input type="text" class="search_input">
+            </div>
+            <div class="color_bar">
+                <ul class="hidden_menu">
+                    <a href="#">
+                        <li class="menu_home">Home</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="menu_about">About us</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="menu_work">Our work</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="menu_contact">Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </header>
+
+
+        <main>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <span class="slide_bg">
+			        		<img src="svg/slider_img.svg" class="slide_img" alt="">
+			        		<p class="medium_slide_heading">Lorem ipsum dolor sit</p>
+			        	</span>
+                        <div class="slide_content">
+                            <div class="controls desc">
+                                <i class="fas fa-chevron-left slide_prev"></i>
+                                <p>Lorem ipsum dolor</p>
+                                <i class="fas fa-chevron-right slide_next"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <span class="slide_bg">
+			        		<img src="svg/slider_img.svg" class="slide_img" alt="">
+			        		<p class="medium_slide_heading">Lorem ipsum dolor sit</p>
+			        	</span>
+                        <div class="slide_content">
+                            <div class="controls desc">
+                                <i class="fas fa-chevron-left slide_prev"></i>
+                                <p>Lorem ipsum dolor</p>
+                                <i class="fas fa-chevron-right slide_next"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <span class="slide_bg">
+			        		<img src="svg/slider_img.svg" class="slide_img" alt="">
+			        		<p class="medium_slide_heading">Lorem ipsum dolor sit</p>
+			        	</span>
+                        <div class="slide_content">
+                            <div class="controls desc">
+                                <i class="fas fa-chevron-left slide_prev"></i>
+                                <p>Lorem ipsum dolor</p>
+                                <i class="fas fa-chevron-right slide_next"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="who_we_are">
+                <h1>Who we are</h1>
+                <div class="wwa_card">
+                    <a class="card_img card_img_cap">
+                        <!-- <span class="inner_card_img cap"></span> -->
+                        <svg class="svg_cap" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.83 25.91">
+							<path class="cls-1" d="M26.3,13.38l-9,5.57L8.22,13.32v7l9.15,5.61,8.93-5.64Zm4.17-4.73,3.36-1.74L17,0,0,6.91l17,9.4,12.1-6.9v8.22a2.1,2.1,0,0,0-1.39,2,2.09,2.09,0,0,0,4.17,0,2.12,2.12,0,0,0-1.39-2Z"/>
+						</svg>
+                    </a>
+                    <div class="card_desc">
+                        <p>Lorem ipsum</p>
+                        <p class="medium_wwa_header">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <div class="card_contr">
+                            <button type="button" class="card_btn">Show more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wwa_card">
+                    <a class="card_img card_img_thumb">
+                        <!-- <span class="inner_card_img thumb"></span> -->
+                        <svg class="svg_thumb" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.26 25.66">
+							<path class="cls-1" d="M15.24,10.19h-1c.35-.06,1.27-.65.25-5.6-1.24-6-3.65-4.4-3.65-4.4s-.58,4.33-.64,5.08c-.26,3.13-4.06,8-4.06,8,0,.4-2.72,1-2.72,1.36,0,3.53,0,6.55,0,10.19,2.53-.68,3.89.85,9.32.85A37.41,37.41,0,0,0,18.6,25h3.78c.86-.09,2.22-.43,2.43-1.66a1.73,1.73,0,0,0-1.17-1.77h.61a2,2,0,0,0,1.59-2.28,2.4,2.4,0,0,0-1.81-2s2.25-.22,2.23-1.92a1.92,1.92,0,0,0-2.17-1.83h-.61A1.94,1.94,0,0,0,25,11.4c-.12-1.12-1-2.14-1.94-2ZM0,15.9v8a1.15,1.15,0,0,0,2.29,0v-8A1.15,1.15,0,0,0,0,15.9" transform="translate(0 0)"/>
+						</svg>
+                    </a>
+                    <div class="card_desc">
+                        <p>Lorem ipsum</p>
+                        <p class="medium_wwa_header">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <div class="card_contr">
+                            <button type="button" class="card_btn">Show more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="what_we_do">
+                <h1>What we do</h1>
+
+                <div class="wwd_inner">
+                    <div class="wwd_top">
+                        <div class="wwd_card wwd_card_left">
+                            <a class="card_img card_img_calc">
+                                <!-- <span class="inner_card_img calc"></span> -->
+                                <svg class="svg_calc" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.85 26.28">
+									<path class="cls-1" d="M20.57,9.14H2.29V2.29H20.57Zm-1.14,4.57H17.14V11.43h2.29Zm0,3.43H17.14V14.85h2.29Zm0,6.86H17.14V18.28h2.29ZM16,13.71H12.57V11.43H16Zm0,3.43H12.57V14.85H16Zm0,3.43H12.57V18.28H16ZM16,24H12.57V21.71H16ZM11.43,13.71H8V11.43h3.43Zm0,3.43H8V14.85h3.43Zm0,3.43H8V18.28h3.43Zm0,3.43H8V21.71h3.43ZM6.86,13.71H3.43V11.43H6.86Zm0,3.43H3.43V14.85H6.86Zm0,3.43H3.43V18.28H6.86Zm0,3.43H3.43V21.71H6.86ZM0,2.42V24.05a2.22,2.22,0,0,0,2.16,2.23H20.6A2.22,2.22,0,0,0,22.84,24c0-5.94-.07-21.61,0-21.69A2.51,2.51,0,0,0,20.62,0C20.19,0,2.74.07,2.51,0A2.51,2.51,0,0,0,0,2.42"/>
+								</svg>
+                            </a>
+                        </div>
+
+                        <div class="wwd_card wwd_card_right">
+                            <a class="card_img card_img_clock">
+                                <!-- <span class="inner_card_img clock"></span> -->
+                                <svg class="svg_clock" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.82 25.82">
+									<path class="cls-1" d="M11.74,4.69v9.4h7V12.91H12.91V4.69Zm1.17-2.11A10.33,10.33,0,1,1,2.58,12.91,10.34,10.34,0,0,1,12.91,2.58m0,23.24A12.91,12.91,0,1,0,0,12.91,12.93,12.93,0,0,0,12.91,25.82"/>
+								</svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="wwd_bottom">
+                        <div class="wwd_card wwd_card_left">
+                            <a class="card_img card_img_cloud">
+                                <!-- <span class="inner_card_img cloud"></span> -->
+                                <svg class="svg_cloud" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.52 21.13">
+									<path class="cls-1" d="M26.82,9.73a2.64,2.64,0,0,0,0-.56A9.07,9.07,0,0,0,9.57,5.25,4.08,4.08,0,0,0,7,4.37,4.21,4.21,0,0,0,2.82,8.58,4.68,4.68,0,0,0,3,9.84,6.27,6.27,0,0,0,0,15.2a6,6,0,0,0,6.05,5.93H24.51a6,6,0,0,0,6-6,5.94,5.94,0,0,0-3.7-5.54Z"/>
+								</svg>
+                            </a>
+                        </div>
+
+                        <div class="wwd_card wwd_card_right">
+                            <a class="card_img card_img_heart">
+                                <!-- <span class="inner_card_img heart"></span> -->
+                                <svg class="svg_heart" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.35 25.82">
+									<path class="cls-1" d="M21.09,0a8.69,8.69,0,0,0-6.42,2.75A8.66,8.66,0,0,0,8.25,0C3.7,0,0,3.25,0,7.27c0,8.87,14.67,18.55,14.67,18.55S29.35,16.14,29.35,7.27c0-4-3.7-7.27-8.26-7.27"/>
+								</svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer>
+            <div class="footer_container">
+                <div class="social">
+                    <a href="https://www.facebook.com/" class="media" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://twitter.com/" class="media" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="https://www.google.com/gmail/about/#" class="media" target="_blank">
+                        <svg id="footer_envelope" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.46 38.1">
+							<polygon class="cls-1" points="45.68 38.1 30.28 21.34 23.35 27.62 16.41 21.34 1.78 38.1 45.68 38.1"/><polygon class="cls-1" points="1.74 0 23.35 24.5 45.72 0 1.74 0"/><polygon class="cls-1" points="14.69 19.78 0 1.54 0 36.58 14.69 19.78"/><polygon class="cls-1" points="47.45 38.1 47.46 38.1 47.46 38.09 47.45 38.1"/><polygon class="cls-1" points="47.46 1.54 32.01 19.78 47.46 36.58 47.46 1.54"/><polygon class="cls-1" points="0 38.09 0 38.1 0.01 38.1 0 38.09"/>
+						</svg>
+                    </a>
+                </div>
+
+                <div class="big_screen_navigation">
+                    <ul>
+                        <a href="">
+                            <li class="big_screen_home">Home</li>
+                        </a>
+
+                        <a href="">
+                            <li class="big_screen_about">About</li>
+                        </a>
+
+                        <a href="">
+                            <li class="big_screen_work">Our work</li>
+                        </a>
+
+                        <a href="">
+                            <li class="big_screen_contact">Contact</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <span class="go_up">
+					<i class="fas fa-long-arrow-alt-up"></i>
+				</span>
+
+            </div>
+        </footer>
+    </article>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

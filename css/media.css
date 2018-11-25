@@ -1,0 +1,270 @@
+@media (min-width: 480px) {
+    .toggle {
+        display: none;
+    }
+    .logo {
+        background-image: url(../img/logo_pt.png);
+        height: 37px;
+        width: 122px;
+    }
+    .icons_navigation {
+        display: block;
+    }
+    .icons_navigation>a {
+        display: inline-block;
+    }
+    .nav_icon {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        margin: 0 20px 0 20px;
+    }
+    .home,
+    .about,
+    .work,
+    .contact {
+        fill: #bababa;
+        height: 30px;
+        width: 30px;
+    }
+    .home:active,
+    .home:hover,
+    .home:focus,
+    .home:visited {
+        fill: #9e0243;
+        transition: .3s all;
+    }
+    .about:active,
+    .about:hover,
+    .about:focus,
+    .about:visited {
+        fill: #781759;
+        transition: .3s all;
+    }
+    .work:active,
+    .work:hover,
+    .work:focus,
+    .work:visited {
+        fill: #512c6f;
+        transition: .3s all;
+    }
+    .contact:active,
+    .contact:hover,
+    .contact:focus,
+    .contact:visited {
+        fill: #174c90;
+        transition: .3s all;
+    }
+    .slide_bg {
+        height: 195px;
+    }
+    .slide_img {
+        height: 133px;
+        width: 133px;
+    }
+    .slide_content {
+        display: none;
+    }
+    .medium_slide_heading {
+        display: block;
+        font-size: 38px;
+        font-weight: 300;
+        text-transform: uppercase;
+        width: 260px;
+        margin-left: 25px;
+    }
+    .swiper-pagination {
+        display: block;
+    }
+    .swiper-pagination-bullet {
+        height: 9px;
+        width: 9px;
+        background-color: #bababa;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #9e0243;
+    }
+    .who_we_are>h1 {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        width: 400px;
+    }
+    .wwa_card {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 118px;
+    }
+    .card_img {
+        width: 188px;
+        height: 118px;
+        margin-right: 10px;
+    }
+    .card_desc {
+        width: 188px;
+        margin-left: 10px;
+        height: 118px;
+    }
+    .card_contr {
+        margin-top: 0;
+    }
+    .card_desc>p {
+        margin-top: 0;
+        font-size: 13px;
+    }
+    .medium_wwa_header {
+        display: block;
+        margin-top: 15px!important;
+    }
+    .what_we_do>h1 {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        width: 400px;
+    }
+    .wwd_card {
+        margin-top: 20px;
+        width: 188px;
+    }
+    .wwd_inner {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .wwd_top {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .wwd_bottom {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .wwd_card_left {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .wwd_card_right {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    article {
+        width: 768px;
+        margin: 0 auto;
+    }
+    .logo {
+        background-image: url(../img/logo_pt.png);
+        height: 45px;
+        width: 150px;
+    }
+    .hidden_search {
+        text-align: right;
+    }
+    .hidden_search>input {
+        width: 30%;
+    }
+    .icons_navigation {
+        display: none;
+    }
+    .header_container {
+        padding: 12px 22px 10px 22px;
+    }
+    .footer_container {
+        padding: 10px 40px 10px 40px;
+    }
+    .big_screen_navigation {
+        display: block;
+    }
+    .big_screen_navigation>ul {
+        list-style: none;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .big_screen_navigation>ul>a {
+        margin: 0 15px 0 15px;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 17px;
+        position: relative;
+        color: #a1a3a6;
+    }
+    .big_screen_navigation>ul>a::after {
+        position: absolute;
+        display: block;
+        content: "/";
+        top: 0;
+        right: -20px;
+        color: #a1a3a6;
+    }
+    .big_screen_home:active,
+    .big_screen_home:hover,
+    .big_screen_home:focus,
+    .big_screen_home:visited {
+        color: #9e0243;
+        transition: .3s all;
+    }
+    .big_screen_about:active,
+    .big_screen_about:hover,
+    .big_screen_about:focus,
+    .big_screen_about:visited {
+        color: #781759;
+        transition: .3s all;
+    }
+    .big_screen_work:active,
+    .big_screen_work:hover,
+    .big_screen_work:focus,
+    .big_screen_work:visited {
+        color: #512c6f;
+        transition: .3s all;
+    }
+    .big_screen_contact:active,
+    .big_screen_contact:hover,
+    .big_screen_contact:focus,
+    .big_screen_contact:visited {
+        color: #174c90;
+        transition: .3s all;
+    }
+    .slide_bg {
+        height: 310px;
+    }
+    .slide_img {
+        width: 170px;
+        height: 170px;
+    }
+    .medium_slide_heading {
+        font-size: 48px;
+        width: 320px;
+    }
+    .who_we_are>h1,
+    .what_we_do>h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1441px) {}
